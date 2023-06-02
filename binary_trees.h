@@ -84,6 +84,12 @@ int binary_tree_balance(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
 int node_is_balanced(const binary_tree_t *node);
 
+/* 16-binary_tree_is_perfect.c */
+int binary_tree_is_perfect(const binary_tree_t *tree);
+size_t binary_tree_child_count(const binary_tree_t *tree);
+size_t binary_tree_node_count(const binary_tree_t *tree);
+int _pow(int base, int exp);
+
 
 #endif /* BINARY_TREES_H */
 
