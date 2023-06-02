@@ -90,6 +90,9 @@ size_t binary_tree_child_count(const binary_tree_t *tree);
 size_t binary_tree_node_count(const binary_tree_t *tree);
 int _pow(int base, int exp);
 
+/* 17-binary_tree_sibling.c */
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
+
 
 #endif /* BINARY_TREES_H */
 
