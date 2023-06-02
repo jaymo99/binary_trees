@@ -4,8 +4,6 @@
  * binary_tree_sibling - finds the sibling of a node.
  * @node: pointer to the node to find the sibling.
  *
- * Description: a perfect tree of height `h` has (2^(h + 1)) - 1 nodes.
- *
  * Return: a pointer to the sibling node.
  * OR NULL
  */
